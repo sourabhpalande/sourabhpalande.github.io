@@ -43,20 +43,20 @@
         <br>
         {% if post.pdflink %}
           Download PDF: 
-          <a href="{{ page.pdflink }}" target="_blank">
+          <a href="{{ post.pdflink }}" target="_blank">
             <i class="fa fa-file-pdf" aria-hidden="true"></i>
           </a>
           &nbsp;&nbsp;
         {% endif %}
         {% if post.codelink %}
           Code available here: 
-          <a href="{{ page.codelink }}" target="_blank">
+          <a href="{{ post.codelink }}" target="_blank">
             <i class="fas fa-code" aria-hidden="true"></i>
           </a>
           &nbsp;&nbsp;
         {% endif %}
         {% if post.demolink %}
-          Demo available here: <a href="{{ page.demolink }}" target="_blank"><i class="fas fa-tv" aria-hidden="true"></i></a>.
+          Demo available here: <a href="{{ post.demolink }}" target="_blank"><i class="fas fa-tv" aria-hidden="true"></i></a>.
         {% endif %}
       </p>
     </li>

@@ -23,7 +23,7 @@
         <strong>{{ post.semester }}, </strong><i>{{ post.venue }}, {{post.location}}</i>
         <br>
         {% if post.noteslink %}
-          Notes available here: <a href="{{ page.noteslink }}" target="_blank"><i class="fas fa-code" aria-hidden="true"></i></a>.
+          Notes available here: <a href="{{ post.noteslink }}" target="_blank"><i class="fas fa-code" aria-hidden="true"></i></a>.
           <br>
         {% endif %}
         {{ post.excerpt }}

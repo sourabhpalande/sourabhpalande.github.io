@@ -17,7 +17,7 @@ date: 2016-04-13
 
 venue: '2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI)'
 
-pdflink: 'http://sourabhpalande.github.io/files/WongPalandeWang2016-KPLS.pdf'
+pdflink: 'https://sourabhpalande.github.io/files/WongPalandeWang2016-KPLS.pdf'
 
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/7493506'
 
