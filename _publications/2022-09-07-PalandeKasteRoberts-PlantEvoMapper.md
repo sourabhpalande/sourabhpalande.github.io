@@ -17,7 +17,7 @@ date: 2022-09-07
 
 venue: 'bioRxiv preprint [Plant Biology]'
 
-pdflink: 'http://sourabhpalande.github.io/files/PalandeKasteRoberts-PlantEvoMapper.pdf'
+pdflink: 'http://sourabhpalande.github.io/files/PalandeKasteRoberts2022-PlantEvoMapper.pdf'
 
 codelink: 'https://github.com/PlantsAndPython/plant-evo-mapper.git'
 
