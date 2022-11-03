@@ -1,0 +1,85 @@
+/* ==========================================================================
+   CV
+   ========================================================================== */
+  
+  .resume__item-title {
+    margin-bottom: 0.25em;
+    font-family: $sans-serif-narrow;
+  
+    a + a {
+      opacity: 0.5;
+    }
+  }
+  
+  /* remove border*/
+  .resume__content {
+  
+    .resume__item-title {
+      margin-top: 1em;
+      border-bottom: none;
+    }
+
+    h2 {
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid $border-color;
+    }
+  
+    p, li, dl {
+      font-size: 1em;
+    }
+  
+    /* paragraph indents */
+    p {
+      margin: 0 0 $indent-var;
+  
+      /* sibling indentation*/
+      @if $paragraph-indent == true {
+        & + p {
+          text-indent: $indent-var;
+          margin-top: -($indent-var);
+        }
+      }
+    }
+  
+    a {
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+      
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+  
+    .small {
+      font-size: $type-size-6;
+    }
+  
+    /* blockquote citations */
+    blockquote + .small {
+      margin-top: -1.5em;
+      padding-left: 1.25rem;
+    }
+
+  }
+  
+  .resume__item-excerpt {
+    margin-top: 0;
+    font-size: $type-size-6;
+    & + p {
+      text-indent: 0;
+    }
+  }
+  
+
+  .resume__item:hover {
+    .resume__item-teaser {
+      box-shadow: 0 0 10px rgba(#000, 0.25);
+    }
+  
+    .resume__item-title {
+      text-decoration: underline;
+    }
+  }

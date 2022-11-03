@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Presentations"
+permalink: /talks/
+author_profile: true
+---
+
+<div class="page__content">
+  <h2> Talks </h2>
+</div>
+<ul>
+  {% for post in site.talks reversed %}
+    {% if post.pubtype == "Talk" %}
+      {% include archive-talk.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<div class="page__content">
+  <h2 style="padding-top: 1em;"> Posters </h2>
+</div>
+<ul>
+  {% for post in site.talks reversed %}
+    {% if post.pubtype == "Poster" %}
+      {% include archive-talk.html %}
+    {% endif %}
+  {% endfor %}
+</ul>

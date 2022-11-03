@@ -1,0 +1,52 @@
+{% include base_path %}
+
+{% comment %}
+  {% if post.id %}
+    {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% else %}
+    {% assign title = post.title %}
+  {% endif %}
+{% endcomment %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.xptype == "Awards" %}
+      <li>
+        <h3 class="archive__item-title" itemprop="headline">
+            <i>{{ post.xpvenue }}</i>
+        </h3>
+        <p class="archive__item-excerpt-cv" itemprop="description">
+          {% if post.xpurl %}
+            <a href="{{ post.paperurl }}" target="_blank">
+              <strong>{{ post.xptitle }}</strong>
+            </a>
+          {% else %}
+            <strong>{{ post.xptitle }}</strong>
+          {% endif %}
+          &nbsp;&nbsp; {{ post.xpduration }}
+          <br>
+          {{ post.excerpt }}
+        </p>
+      </li>
+    {% else %}
+      <li>
+        <h3 class="archive__item-title" itemprop="headline">
+            <i>{{ post.xptitle }}</i>
+        </h3>
+        <p class="archive__item-excerpt-cv" itemprop="description">
+          {% if post.xpurl %}
+            <a href="{{ post.paperurl }}" target="_blank">
+              <strong>{{ post.xpvenue }},</strong>
+            </a>
+          {% else %}
+            <strong>{{ post.xpvenue }}, </strong>
+          {% endif %}
+          &nbsp; <i><strong>{{post.xplocation}},</strong></i>
+          &nbsp; {{ post.xpduration }}
+          <br>
+          {{ post.excerpt }}
+        </p>
+      </li>
+    {% endif %}
+  </article>
+</div>

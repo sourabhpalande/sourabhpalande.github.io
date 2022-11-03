@@ -1,0 +1,229 @@
+# Welcome to Jekyll!
+#
+# This file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Home"
+title_separator          : "-"
+name                     : &name "Sourabh Palande"
+description              : &description "Postdoctoral Research Associate"
+
+# the base hostname & protocol for site e.g. "https://mmistakes.github.io"
+url                      : https://sourabhpalande.github.io
+
+# the subpath of site, e.g. "/blog"
+baseurl                  : ""
+repository               : "sourabhpalande/sourabhpalande.github.io"
+files-url                : https://sourabhpalande.github.io/files/
+# filename of teaser fallback teaser placed in /images/, .e.g. "500x300.png"
+teaser                   :  "filler.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 180
+future                   : false
+read_more                : "enabled" # adds "Read more" links to excerpts
+talkmap_link             : false # to add link to talkmap on talks page
+comments:
+  # false (default), "facebook", "google-plus", "staticman", "custom"
+  provider               : false
+
+# Site Author
+author:
+  name             : "Sourabh Palande"
+  avatar           : "myprofile.png"
+  bio              : "Postdoctoral Research Associate <br>Data Scientist | Applied Mathematician"
+  location         : # "East Lansing, Michigan, USA"
+  department       :
+  department-url   :
+  employer         : "CMSE, Michigan State University"
+  employer-url     : "https://cmse.msu.edu"
+  email            : "palandes@msu.edu"
+  linkedin         : "sourabhpalande"
+  googlescholar    : "https://scholar.google.com/citations?user=ccL5PVEAAAAJ&hl=en"
+  github           : "sourabhpalande"
+  orcid            : "https://orcid.org/0000-0002-1404-8238"
+
+  # pubmed           :
+  # researchgate     :
+  # uri              :
+  # bitbucket        :
+  # stackoverflow    : # http://stackoverflow.com/users/123456/username
+  # twitter          : "replacethistwitterhandle"
+  # youtube          :
+  # wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  cvitem:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Defaults
+defaults:
+  # # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: archive
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
+  # # _pages
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: archive
+  #     author_profile: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: archive
+      author_profile: true
+      share: true
+      comment: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single-publication
+      author_profile: true
+      share: true
+      comments: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single-talk
+      author_profile: true
+      share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: archive
+      author_profile: true
+      share: true
+      comments: true
+  # _cvitem
+  - scope:
+      path: ""
+      type: cvitem
+    values:
+      layout: archive
+      author_profile: true
+      share: true
+      comments: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
+
+
+# Outputting
+permalink: /:categories/:title/
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Detroit
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# HTML Compression - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

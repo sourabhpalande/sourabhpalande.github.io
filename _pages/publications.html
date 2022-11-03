@@ -1,0 +1,57 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+ You can also find my publications on:&nbsp;&nbsp;&nbsp;<i class="fas fa-fw fa-graduation-cap"></i><a href="{{site.author.googlescholar}}" target="_blank">Google Scholar</a>.
+
+{% include base_path %}
+
+<div class="page__content">
+  <h2> Preprints </h2>
+</div>
+  <ul>
+    {% for post in site.publications reversed %}
+      {% if post.pubtype == "Preprint" %}
+        {% include archive-publication.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+
+<div class="page__content">
+  <h2 style="padding-top: 1em;"> Journal Articles </h2>
+</div>
+  <ul>
+    {% for post in site.publications reversed %}
+      {% if post.pubtype == "Journal" %}
+        {% include archive-publication.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+
+<div class="page__content">
+  <h2 style="padding-top: 1em;"> Conference Papers </h2>
+</div>
+  <ul>
+    {% for post in site.publications reversed %}
+      {% if post.pubtype == "Conference" %}
+        {% include archive-publication.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+
+<div class="page__content">
+  <h2 style="padding-top: 1em;"> Dissertation </h2>
+</div>
+  <ul>
+    {% for post in site.publications reversed %}
+      {% if post.pubtype == "Thesis" %}
+        {% include archive-publication.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>

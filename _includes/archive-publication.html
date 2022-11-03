@@ -1,0 +1,64 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
+      <h3 class="archive__item-title" itemprop="headline">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      </h3>
+      {% if post.token %}
+        <img class="archive__item-token" src=
+          {% if post.token contains "://" %}
+            "{{ post.token }}"
+          {% else %}
+            "{{ post.token | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="filler.png">
+      {% endif %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.citation }}
+        <br>
+        {% if post.venue %}
+          {% if post.paperurl %}
+            Published in: 
+            <a href="{{ post.paperurl }}" target="_blank"> 
+              {{ post.venue }} 
+            </a>
+          {% else %}
+            Published in: {{ post.venue }}.
+          {% endif %}
+        {% endif %}
+        <br>
+        {% if post.pdflink %}
+          Download PDF: 
+          <a href="{{ page.pdflink }}" target="_blank">
+            <i class="fa fa-file-pdf" aria-hidden="true"></i>
+          </a>
+          &nbsp;&nbsp;
+        {% endif %}
+        {% if post.codelink %}
+          Code available here: 
+          <a href="{{ page.codelink }}" target="_blank">
+            <i class="fas fa-code" aria-hidden="true"></i>
+          </a>
+          &nbsp;&nbsp;
+        {% endif %}
+        {% if post.demolink %}
+          Demo available here: <a href="{{ page.demolink }}" target="_blank"><i class="fas fa-tv" aria-hidden="true"></i></a>.
+        {% endif %}
+      </p>
+    </li>
+ </article>
+</div>

@@ -1,0 +1,187 @@
+---
+layout: archive
+title: "Curriculum Vitae"
+permalink: /cv/
+author_profile: true
+---
+
+{% include base_path %}
+
+<hr>
+<div class="archive__content">
+    Download &nbsp;&nbsp;
+    <a href="{{ site.files-url }}SourabhPalande_CV.pdf" aria-hidden="true">
+      pdf <i class="fas fa-file-pdf"></i>
+    </a>
+    &nbsp;&nbsp;
+    <a href="{{ site.files-url }}SourabhPalande_CV.docx" aria-hidden="true">
+      docx <i class="fas fa-file-word"></i>
+    </a>
+</div>
+<hr>
+<div class="archive__content">
+  <section>
+    <div class="archive__item-title">
+      <h2><i class="fas fa-bookmark"></i> Summary </h2>
+      <div class="archive__item-excerpt-cv" itemprop="description">
+        <ul>
+          <li>
+            I'm a Data scientist, an applied mathematician, a theoretical, algorithmic, and applied machine learning researcher.
+          </li>
+          <li>
+            I develop, implement novel methods leveraging topology and geometry in machine learning and data analysis.
+          </li>
+          <li>
+            I've published research articles in leading journals and conferences, spanning a range of topics and applications.
+          </li>
+          <li>
+            I have experience working with MRI, fMRI, 3D X-Ray CT scans, RGB images, brain networks, RNA-Seq data sets.
+          </li>
+          <li>
+            I'm eager to make real-world impact by solving complex problems, advancing scientific and technological capabilities.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <div class="archive__item-title">
+      <h2><i class="fas fa-bookmark"></i> Research Experience </h2>
+      <ul>
+        {% for post in site.cvitem reversed %}
+          {% if post.xptype == "ResearchXP" %}
+            {% include archive-cv.html %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <div class="archive__item-title">
+      <h2><i class="fas fa-bookmark"></i> Education </h2>
+      <ul>
+        {% for post in site.cvitem reversed %}
+          {% if post.xptype == "Education" %}
+            {% include archive-cv.html %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <div class="archive__item-title">
+      <h2><i class="fas fa-bookmark"></i> Awards and Honors </h2>
+      <ul>
+        {% for post in site.cvitem reversed %}
+          {% if post.xptype == "Awards" %}
+            {% include archive-cv.html %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <div class="archive__item-title">
+      <h2><i class="fas fa-bookmark"></i> Teaching </h2>
+      <ul>
+        {% comment %}
+          {% for post in site.cv reversed %}
+            {% if post.pubtype == "TeachingXP" %}
+              {% include archive-cv.html %}
+            {% endif %}
+          {% endfor %}
+        {% endcomment %}
+        {% for post in site.teaching reversed %}
+          {% include archive-teaching-cv.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <hr>
+  <!-- <section>
+    <div class="archive__item-title">
+      <h2><i class="fas fa-bookmark"></i> Other Work Experience </h2>
+      <ul>
+        {% comment %}
+          {% for post in site.cv reversed %}
+            {% if post.pubtype == "OtherXP" %}
+              {% include archive-cv.html %}
+            {% endif %}
+          {% endfor %}
+        {% endcomment %}
+      </ul>
+    </div>
+  </section> -->
+  <hr>
+  <section>
+    <div class="archive__item-title">
+      <h2><i class="fas fa-bookmark"></i> Publications </h2>
+        <div class="archive__content">
+          <h3> Preprints </h3>
+        </div>
+        <ul>
+          {% for post in site.publications reversed %}
+            {% if post.pubtype == "Preprint" %}
+              {% include archive-publication-cv.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <div class="archive__content">
+          <h3> Journal Articles </h3>
+        </div>
+        <ul>
+          {% for post in site.publications reversed %}
+            {% if post.pubtype == "Journal" %}
+              {% include archive-publication-cv.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <div class="archive__content">
+        <h3> Conference Papers </h3>
+        </div>
+        <ul>
+          {% for post in site.publications reversed %}
+            {% if post.pubtype == "Conference" %}
+              {% include archive-publication-cv.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <div class="archive__content">
+          <h3> Dissertation </h3>
+        </div>
+        <ul>
+          {% for post in site.publications reversed %}
+            {% if post.pubtype == "Thesis" %}
+              {% include archive-publication-cv.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      
+    </div>
+  </section>
+  <hr>
+</div>
+
+{% comment %}
+<hr>
+<h2> Publications </h2>
+<hr>
+<ul>
+  {% for post in site.publications reversed %}
+    {% include archive-publication-cv.html %}
+  {% endfor %}
+</ul>
+
+<hr>
+<h2>Talks / Presentations / Posters</h2>
+<hr>
+  <ul>
+    {% for post in site.talks reversed %}
+      {% include archive-talk-cv.html %}
+    {% endfor %}
+  </ul>
+  {% endcomment %}
