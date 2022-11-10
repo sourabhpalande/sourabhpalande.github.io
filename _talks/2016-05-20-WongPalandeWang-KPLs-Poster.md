@@ -18,7 +18,7 @@ location: 'MBI, Ohio State University'
 
 permalink: /talks/2016-05-20-WongPalandeWang-KPLs-Poster
 
-pdflink: 'http://sourabhpalande.github.io/files/WongPalandeWang2016-KPLS-poster.pdf'
+pdflink: 'https://sourabhpalande.github.io/files/WongPalandeWang2016-KPLS-Poster.pdf'
 
 puburl: 'https://research.math.osu.edu/tgda/tgda-conf-osu.html'
 
