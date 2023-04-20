@@ -12,7 +12,7 @@ date: 2023-03-24
 
 pubtype: 'Talk'
 
-venue: 'Seattle Children's Research Institute, March 2023'
+venue: "Seattle Children\'s Research Institute, March 2023"
 
 location: 'Seattle, Washington'
 
