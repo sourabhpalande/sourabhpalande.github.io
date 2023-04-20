@@ -20,7 +20,7 @@ permalink: /talks/2023-03-24-Palande-TDA-ML-SCRI
 
 pdflink: 'http://sourabhpalande.github.io/files/Palande2023-SCRI-slides.pdf'
 
-puburl: ''
+puburl: 'http://sourabhpalande.github.io/pages/404.html'
 
 token: 'scri-token.png'
 
