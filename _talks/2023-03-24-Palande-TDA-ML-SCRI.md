@@ -12,7 +12,7 @@ date: 2023-03-24
 
 pubtype: 'Talk'
 
-venue: "Seattle Children\'s Research Institute, March 2023"
+venue: "Seattle Children's Research Institute, March 2023"
 
 location: 'Seattle, Washington'
 
@@ -20,7 +20,7 @@ permalink: /talks/2023-03-24-Palande-TDA-ML-SCRI
 
 pdflink: 'http://sourabhpalande.github.io/files/Palande2023-SCRI-slides.pdf'
 
-puburl: 'http://sourabhpalande.github.io/pages/404.html'
+puburl: ''
 
 token: 'scri-token.png'
 
