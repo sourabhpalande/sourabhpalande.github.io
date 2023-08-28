@@ -8,7 +8,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Sourabh Palande"
-description              : &description "Postdoctoral Research Associate"
+description              : &description "Data Scientist II"
 
 # the base hostname & protocol for site e.g. "https://mmistakes.github.io"
 url                      : https://sourabhpalande.github.io
@@ -30,15 +30,15 @@ comments:
 
 # Site Author
 author:
-  name             : "Sourabh Palande"
+  name             : "Sourabh Palande, PhD"
   avatar           : "myprofile.png"
-  bio              : "Postdoctoral Research Associate <br>Data Scientist | Applied Mathematician"
+  bio              : "Data Scientist II"
   location         : # "East Lansing, Michigan, USA"
-  department       :
-  department-url   :
-  employer         : "CMSE, Michigan State University"
-  employer-url     : "https://cmse.msu.edu"
-  email            : "palandes@msu.edu"
+  department       : "Topp Roots Lab"
+  department-url   : "https://topp-roots-lab.github.io/"
+  employer         : "Donald Danforth Plant Science Center"
+  employer-url     : "https://www.danforthcenter.org/"
+  email            : "spalande@danforthcenter.org"
   linkedin         : "sourabhpalande"
   googlescholar    : "https://scholar.google.com/citations?user=ccL5PVEAAAAJ&hl=en"
   github           : "sourabhpalande"

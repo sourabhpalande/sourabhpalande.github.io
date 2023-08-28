@@ -10,7 +10,7 @@ title: 'Postdoctoral Research Associate'
 
 xptitle: 'Postdoctoral Research Associate'
 
-xpduration: 'October 2020 - Present'
+xpduration: 'October 2020 - June 2023'
 
 xpurl: 'https://cmse.msu.edu/directory/postdocs/'
 
@@ -25,7 +25,7 @@ xpvenue: 'CMSE, Michigan State University'
 xplocation: 'East Lansing, Michigan'
 
 excerpt: '
-- Lead interdisciplinary collaborative projects consisting of mathematicians, computer scientists and biologists.<br>
+- Led interdisciplinary collaborative projects consisting of mathematicians, computer scientists and biologists.<br>
 - Developed image analysis techniques for 3D X-Ray scans and 2D RGB images for applications in plant biology.<br>
 - Developed exploratory visual analytics tools to study gene expression data across plant evolution.<br>
 - Guided undergrad and grad student research projects in computational biology.<br>
