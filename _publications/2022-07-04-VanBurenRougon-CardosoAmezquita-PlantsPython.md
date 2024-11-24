@@ -25,7 +25,7 @@ demolink: 'https://plantsandpython.github.io/PlantsAndPython/'
 
 paperurl: 'https://academic.oup.com/plcell/article/34/7/e1/6628764'
 
-citation: 'Robert VanBuren, Alejandra Rougon-Cardoso, Erik J. Amézquita, Evelia L. Coss-Navarrete, Aarón Espinosa-Jaime, Omar Andres Gonzalez-Iturbe, Alicia C. Luckie-Duque, Eddy Mendoza-Galindo, Jeremy Pardo, Guillermo Rodríguez-Guerrero, Pablo Y. Rosiles-Loeza, Marilyn Vásquez-Cruz, Selene L. Fernandez-Valverde, Tania Hernández-Hernández, Sourabh Palande, and Daniel H. Chitwood. "Plants & Python: A series of lessons in coding, plant biology, computation, and bioinformatics." <i>The Plant Cell</i>, vol. 34, no. 7 (2022): e1.'
+citation: 'Robert VanBuren, Alejandra Rougon-Cardoso, Erik Amézquita, et al. "Plants & Python: A series of lessons in coding, plant biology, computation, and bioinformatics." <i>The Plant Cell</i>, vol. 34, no. 7 (2022): e1.'
 
 token: "plants_python_logo.png"
 

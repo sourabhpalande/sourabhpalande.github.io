@@ -23,7 +23,7 @@ codelink: 'https://github.com/sourabhpalande/scMRI-Topo.git'
 
 paperurl: 'https://www.liebertpub.com/doi/abs/10.1089/brain.2018.0604'
 
-citation: 'Palande, Sourabh, Vipin Jose, Brandon Zielinski, Jeffrey Anderson, P. Thomas Fletcher, and Bei Wang. "Revisiting Abnormalities in Brain Network Architecture Underlying Autism Using Topology-Inspired Statistical Inference." <i>Brain Connectivity 9</i>, no. 1 (2019): 13-21.'
+citation: 'Sourabh Palande, Vipin Jose, Brandon Zielinski, Jeffrey Anderson, P. Thomas Fletcher, and Bei Wang. "Revisiting Abnormalities in Brain Network Architecture Underlying Autism Using Topology-Inspired Statistical Inference." <i>Brain Connectivity 9</i>, no. 1 (2019): 13-21.'
 
 token: "brain-conn-2019.png"
 

@@ -25,7 +25,7 @@ demolink: 'https://tdavislab.github.io/TopoAct/'
 
 paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14195'
 
-citation: 'Rathore, Archit, Nithin Chalapathi, Sourabh Palande, and Bei Wang. "TopoAct: Visually exploring the shape of activations in deep learning." In <i>Computer Graphics Forum</i>, vol. 40, no. 1, pp. 382-397. 2021.'
+citation: 'Archit Rathore, Nithin Chalapathi, Sourabh Palande, and Bei Wang. "TopoAct: Visually exploring the shape of activations in deep learning." In <i>Computer Graphics Forum</i>, vol. 40, no. 1, pp. 382-397. 2021.'
 
 token: "topoact.png"
 

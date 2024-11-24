@@ -21,7 +21,7 @@ pdflink: 'https://sourabhpalande.github.io/files/WongPalandeWang2016-KPLS.pdf'
 
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/7493506'
 
-citation: 'Wong, Eleanor, Sourabh Palande, Bei Wang, Brandon Zielinski, Jeffrey Anderson, and P. Thomas Fletcher. "Kernel partial least squares regression for relating functional brain network topology to clinical measures of behavior." In <i>2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI)</i>, pp. 1303-1306. IEEE, 2016.'
+citation: 'Eleanor Wong, Sourabh Palande, Bei Wang, Brandon Zielinski, Jeffrey Anderson, and P. Thomas Fletcher. "Kernel partial least squares regression for relating functional brain network topology to clinical measures of behavior." In <i>2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI)</i>, pp. 1303-1306. IEEE, 2016.'
 
 token: "kpls-token.png"
 

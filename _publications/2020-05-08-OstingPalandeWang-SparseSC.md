@@ -23,7 +23,7 @@ codelink: 'https://github.com/sourabhpalande/SC-Spectral.git'
 
 paperurl: 'https://jocg.org/index.php/jocg/article/view/3098'
 
-citation: 'Osting, Braxton, Sourabh Palande, and Bei Wang. "Spectral sparsification of simplicial complexes for clustering and label propagation." <i>Journal of Computational Geometry 11</i>, no. 1 (2020): 176-211.'
+citation: 'Braxton Osting, Sourabh Palande, and Bei Wang. "Spectral sparsification of simplicial complexes for clustering and label propagation." <i>Journal of Computational Geometry 11</i>, no. 1 (2020): 176-211.'
 
 token: "sparseSC.png"
 

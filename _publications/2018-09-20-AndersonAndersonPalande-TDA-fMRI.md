@@ -21,7 +21,7 @@ pdflink: 'http://sourabhpalande.github.io/files/AndersonAndersonPalande2018-TDA-
 
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-00755-3_8'
 
-citation: 'Anderson, Keri L., Jeffrey S. Anderson, Sourabh Palande, and Bei Wang. "Topological Data Analysis of Functional MRI Connectivity in Time and Space Domains." In <i>Connectomics in neuroImaging: second international workshop, CNI 2018, held in conjunction with MICCAI 2018, Granada, Spain, September 20, 2018: proceedings. CNI (Workshop)(2nd: 2018: Granada, Spain)</i>, vol. 11083, p. 67. NIH Public Access, 2018.'
+citation: 'Keri Anderson, Jeffrey Anderson, Sourabh Palande, and Bei Wang. "Topological Data Analysis of Functional MRI Connectivity in Time and Space Domains." In <i>Connectomics in NeuroImaging: Second international workshop, CNI 2018, held in conjunction with MICCAI 2018, Granada, Spain, September 20, 2018: proceedings. CNI (Workshop)(2nd: 2018: Granada, Spain)</i>, vol. 11083, p. 67. NIH Public Access, 2018.'
 
 token: "miccai-cni-2018.png"
 

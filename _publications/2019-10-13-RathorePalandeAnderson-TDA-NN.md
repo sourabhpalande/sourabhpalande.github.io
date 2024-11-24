@@ -23,7 +23,7 @@ codelink: 'https://github.com/tdavislab/ASD-Classification-with-TDA.git'
 
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-32248-9_82'
 
-citation: 'Rathore, Archit, Sourabh Palande, Jeffrey S. Anderson, Brandon A. Zielinski, P. Thomas Fletcher, and Bei Wang. "Autism classification using topological features and deep learning: A cautionary tale." In <i>International Conference on Medical Image Computing and Computer-Assisted Intervention</i>, pp. 736-744. Springer, Cham, 2019.'
+citation: 'Archit Rathore, Sourabh Palande, Jeffrey Anderson, Brandon Zielinski, P. Thomas Fletcher, and Bei Wang. "Autism classification using topological features and deep learning: A cautionary tale." In <i>International Conference on Medical Image Computing and Computer-Assisted Intervention</i>, pp. 736-744. Springer, Cham, 2019.'
 
 token: "miccai-tda-nn.png"
 
