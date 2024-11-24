@@ -25,7 +25,7 @@ paperurl: 'https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio
 
 citation: 'Sourabh Palande, Jeremy Arsenault, Patricia Basurto-Lozada, et al. "Expression-based machine learning models for predicting plant tissue identity." In <i> Applications in Plant Sciences, e11621</i>, 2024.'
 
-token: ""
+token: "arabidopsis-gene-exoression.png"
 
 abstract: '<b>Premise:</b> The selection of Arabidopsis as a model organism played a pivotal role in advancing genomic science. The competing frameworks to select an agricultural- or ecological-based model species were rejected, in favor of building knowledge in a species that would facilitate genome-enabled research.<br>
 <b>Methods:</b> Here, we examine the ability of models based on Arabidopsis gene expression data to predict tissue identity in other flowering plants. Comparing different machine learning algorithms, models trained and tested on Arabidopsis data achieved near perfect precision and recall values, whereas when tissue identity is predicted across the flowering plants using models trained on Arabidopsis data, precision values range from 0.69 to 0.74 and recall from 0.54 to 0.64.<br>
